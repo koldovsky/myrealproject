@@ -1,0 +1,47 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav {
+    position: relative;
+    width: 45%;
+    margin: auto;
+    /*left: 28%;*/
+    /*top: 1%;*/
+    /*margin-left: 530px;*/
+    /*margin-top: 31px;*/
+}
+
+nav li {
+    display: inline;
+    text-align:center;
+    vertical-align: middle;
+}
+
+main {
+    background-color: white;
+}
+
+@font-face {
+    font-family: Pathway; /* Имя шрифта */
+    src: url(fonts/PathwayGothicOne-Regular.ttf); /* Путь к файлу со шрифтом */
+ }
+
+header a {
+    position: relative;
+    font-family: Pathway, 'Myriad Pro Regular';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: black;
+}

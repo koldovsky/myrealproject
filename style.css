@@ -6,6 +6,8 @@ body {
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 nav {
@@ -26,6 +28,13 @@ nav li {
 
 main {
     background-color: white;
+    padding:3%;
+}
+
+.slides {
+    width=100%;
+
+    margin: auto;
 }
 
 @font-face {

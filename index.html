@@ -3,24 +3,41 @@
 <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link rel="icon" type="image/gif" href="images/sun.gif">
     <title>Site for travel fans</title>
 </head>
 <body>
+    <div class="content">
     <header>
-        <nav>
+        <nav id="mainmenu">
             <ul class="sfmenu">
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">GALLERY</a></li>
                 <li><a href=""><img src="images/logo.png" alt="site-logo"></a></li>
                 <li><a href="">TOURS</a></li>
-                <li><a href="">CONTACTS</a></li>
+                <li id="lastli"><a href="">CONTACTS</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img class="slides" src="images/slide.jpg" alt="slide-with-a-boat">
+        <div class="slides">
+        <img src="images/slide.jpg" alt="slide-with-a-boat">
+        <div class="block1-title">TOP DESTINATIONS</div>
+        </div class="triple-slide">
+            <div class="first-slide">
+                <img src="images/small-slide1.jpg" alt="top-destination1">
+            </div>
+            <div class="second-slide">
+                <img src="images/small-slide2.jpg" alt="top-destination1">
+            </div>
+            <div class="third-slide">
+                <img src="images/small-slide3.jpg" alt="top-destination3">
+            </div>
+        </div>
+        
         <article>
+            
             <section>
             </section>
             <section>
@@ -31,5 +48,6 @@
     </main>
     <footer>
     </footer>
+    </div>
 </body>
 </html>

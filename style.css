@@ -1,7 +1,13 @@
+* {
+    margin:0;
+    padding:0
+}
+
 body {
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-position: center top;
+    font-family: Pathway, 'Myriad Pro Regular';
     background-size: 100%;
     position: relative;
     overflow-x: hidden;
@@ -11,31 +17,63 @@ body {
 }
 
 nav {
+    overflow:hidden;
+    width: 100%;
+}
+
+nav ul {
     position: relative;
-    width: 45%;
-    margin: auto;
-    /*left: 28%;*/
-    /*top: 1%;*/
-    /*margin-left: 530px;*/
-    /*margin-top: 31px;*/
+    width: 870px;
+    -webkit-padding-start: 0;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
 nav li {
-    display: inline;
-    text-align:center;
-    vertical-align: middle;
+    display: inline;  
+    padding-left: 30px;
+    padding-right: 30px;
+    display: table-cell;
+    vertical-align: middle; 
+}
+   
+/* nav ul :nth-last-child {
+     padding-right: 0;
+}
+ */
+ 
+#lastli {
+    padding-left: 0;
+}
+ 
+
+
+.content {
+    max-width: 1270px;
+    margin: 0 auto;
 }
 
 main {
     background-color: white;
-    padding:3%;
+    padding-top: 70px;
+    padding-left: 72px;
+    padding-right: 72px;
+    min-width: 1270px;
 }
+
 
 .slides {
-    width=100%;
-
-    margin: auto;
+    max-width: 1126px;
+    margin: 0 auto;
 }
+
+.slides img {
+    max-width: 100%;
+}
+
 
 @font-face {
     font-family: Pathway; /* Имя шрифта */
@@ -44,8 +82,7 @@ main {
 
 header a {
     position: relative;
-    font-family: Pathway, 'Myriad Pro Regular';
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     text-decoration: none;
 }
@@ -54,3 +91,37 @@ header a:hover {
     text-decoration: none;
     color: black;
 }
+
+article {
+    background-color: white; 
+}
+
+.block1-title {
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.triple-slide {
+    background-color: white; 
+}
+
+#first-slide {
+    width: 33%;
+    float: left;
+}
+
+#third-slide {
+    width: 33%;
+    float: right;
+}
+
+#second-slide {
+    width: 33%;
+    margin: 0 auto;
+}
+
+
+
+

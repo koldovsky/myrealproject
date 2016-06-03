@@ -114,12 +114,12 @@ article {
 
 #third-slide {
     width: 33%;
-    float: right;
+    float: left;
 }
 
 #second-slide {
     width: 33%;
-    margin: 0 auto;
+    float: left;
 }
 
 
